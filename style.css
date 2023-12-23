@@ -47,12 +47,17 @@ a {
 a:hover {
                                      color: #ff0000;
 }
+
+.banner {
+                                    width: 100vw;
+                                    margin: auto;
+                                    text-align: center;
+                                    display: block;
+}
   
 .img-banner {
-                                    width: 50vw;
+                                    width: 30vw;
                                     height: 460px;
-                                    margin: auto;
-                                    display: block;
 }
 
 .sobre {
@@ -115,8 +120,8 @@ footer {
   @media screen and (max-width: 768px){
 
     .img-banner {
-                            width: 90vw;
-                            height: 320px;
+                            width: 70vw;
+                            height: 280px;
                             margin: auto;
                             display: block;
     }
