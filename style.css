@@ -22,8 +22,6 @@ main {
 }
   
 h1 {
-                                    font-size: 2em;
-                                    font-weight: bold;
                                     text-align: center;
 }
 
@@ -36,7 +34,7 @@ p {
 }
   
 nav {
-                                    float: right;
+                                    text-align: right;
 }
   
 a {
@@ -56,8 +54,8 @@ a:hover {
 }
   
 .img-banner {
-                                    width: 30vw;
-                                    height: 460px;
+                                    width: 25vw;
+                                    height: 400px;
 }
 
 .sobre {
@@ -115,12 +113,20 @@ footer {
 
 
 
+            /*SCREEN 900PX*/
+    @media screen and (max-width: 1266px){
+
+  .img-banner {
+                                  width: 37vw;
+                                  height: 350px;
+}
+}
 
             /*MOBILE*/
   @media screen and (max-width: 768px){
 
     .img-banner {
-                            width: 70vw;
+                            width: 50vw;
                             height: 280px;
                             margin: auto;
                             display: block;
