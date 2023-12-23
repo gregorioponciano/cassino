@@ -48,9 +48,9 @@ a:hover {
                                      color: #ff0000;
 }
   
-.img-tigre-banner {
+.img-banner {
                                     width: 50vw;
-                                    height: 320px;
+                                    height: 460px;
                                     margin: auto;
                                     display: block;
 }
@@ -114,7 +114,7 @@ footer {
             /*MOBILE*/
   @media screen and (max-width: 768px){
 
-    .img-tigre-banner {
+    .img-banner {
                             width: 90vw;
                             height: 320px;
                             margin: auto;
