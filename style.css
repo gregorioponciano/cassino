@@ -54,9 +54,13 @@ a:hover {
 }
   
 .imagens {
-                                    width: 25vw;
-                                    height: 400px;
-                                    margin: 20px auto;
+
+                                    height: 200px;
+}
+
+.img-banner {
+                                    margin: auto;
+                                    margin-top: 10px;
 }
 
 .sobre {
@@ -114,7 +118,9 @@ footer {
             /*MOBILE*/
   @media screen and (max-width: 768px){
 
-
+    .img-banner { 
+                            width: 300px;
+    }
     .container {
 
                             display: flex;
